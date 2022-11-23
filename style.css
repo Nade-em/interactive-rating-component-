@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  background: black;
+  color: hsl(0, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'overpass';
+
+
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.attribution a {
+
+  text-decoration: none;
+  color: hsl(25, 97%, 53%);
+}
+
+.attribution a:hover {
+  color: hsl(0, 55%, 62%);
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 19rem;
+  margin: 8rem auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: hsl(216, 12%, 8%);
+
+}
+
+.card-items {
+  display: flex;
+
+}
+
+.u-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 1;
+  list-style-type: none;
+}
+
+.u-list>a {
+    text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 19%, 18%);
+  padding:0.6rem 1rem;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 0.6rem;
+  color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
+.u-list>a:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.star-logo {
+  max-width: 1rem;
+  max-height: 1.5rem;
+  display: flex;
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+
+.btn {
+  width: 95%;
+  margin: 0.6rem;
+  color: white;
+  font-weight: 600;
+  padding: 0.4rem;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 1rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+#thank-you {
+  display: flex;
+  flex-direction: column;
+  max-width: 19rem;
+  margin: 8rem auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: hsl(216, 12%, 8%);
+  text-align: center;
+
+}
+
+.ty-img {
+  max-width: 12rem;
+  display: block;
+  margin: 0.2rem auto;
+  max-height: fit-content;
+}
+
+.rating {
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.3rem;
+  max-width: fit-content;
+  display: block;
+  margin: 0.8rem auto;
+  border-radius: 10px;
+  color: hsl(25, 97%, 53%);
+}
+
+.ty-head {
+  margin-bottom: 0;
+}
+
+.u-list>a:focus{
+   
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+/* fieldset {
+  border: none;
+}
+.rates {
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 3.2rem;
+}
+.rate label {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-color: hsl(228, 45%, 44%);
+  color: hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.rate label:hover {
+  background-color:hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.rate-input:checked + label {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+.btn:not([disabled]) {
+  cursor: pointer;
+}
+.rates input {
+  display: none;
+} */
